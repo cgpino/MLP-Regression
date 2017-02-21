@@ -1,6 +1,6 @@
 //============================================================================
 // Introducción a los Modelos Computacionales
-// Name        : main.cpp
+// Name        : MLP-Regression
 // Author      : Carlos Gómez Pino
 // Version     : 2016
 // Copyright   : Universidad de Córdoba
