@@ -23,7 +23,7 @@ int main(int argc, char **argv) {
 
     /* Valores de entrada del programa */
 
-	// Indican si se han proporcionado datos de entrenamiento y/o test
+    // Indican si se han proporcionado datos de entrenamiento y/o test
     bool tflag = false, Tflag = false;
 
     // Indican el nombre de los ficheros de entrenamiento y test
