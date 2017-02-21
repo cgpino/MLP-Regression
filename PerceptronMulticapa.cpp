@@ -13,7 +13,7 @@
 #include <vector>
 
 // Inclusión del archivo de cabecera de PerceptrónMulticapa
-#include "PerceptronMulticapa.h"
+#include "PerceptronMulticapa.hpp"
 
 // ------------------------------
 // Obtener un número real aleatorio en el intervalo [Low,High]

@@ -1,6 +1,6 @@
 //============================================================================
 // Introducción a los Modelos Computacionales
-// Name        : mlpRegresion.cpp
+// Name        : main.cpp
 // Author      : Carlos Gómez Pino
 // Version     : 2016
 // Copyright   : Universidad de Córdoba
@@ -17,7 +17,7 @@
 #include <vector>
 
 // Inclusión de la clase PerceptrónMulticapa
-#include "imc/PerceptronMulticapa.h"
+#include "PerceptronMulticapa.hpp"
 
 int main(int argc, char **argv) {
 
@@ -217,8 +217,7 @@ int main(int argc, char **argv) {
     std::cout << " Informe final" << std::endl;
     std::cout << "***************" << std::endl;
     std::cout << "\n > Error de entrenamiento (Media +- DT): " << mediaErrorTrain << " +- " << desviacionTipicaErrorTrain << std::endl;
-    std::cout << " > Error de test (Media +- DT):          " << mediaErrorTest << " +- " << desviacionTipicaErrorTest << std::endl;
+    std::cout << " > Error de test (Media +- DT): " << mediaErrorTest << " +- " << desviacionTipicaErrorTest << std::endl;
 
     return EXIT_SUCCESS;
 }
-
