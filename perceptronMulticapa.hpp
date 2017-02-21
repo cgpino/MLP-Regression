@@ -3,7 +3,6 @@
  * Date  : 2016
  *********************************************************************/
 
-
 #ifndef _PERCEPTRONMULTICAPA_HPP_
 #define _PERCEPTRONMULTICAPA_HPP_
 
