@@ -1,5 +1,5 @@
 /*********************************************************************
- * File  : PerceptronMulticapa.cpp
+ * File  : perceptronMulticapa.cpp
  * Date  : 2016
  *********************************************************************/
 
@@ -13,7 +13,7 @@
 #include <vector>
 
 // Inclusión del archivo de cabecera de PerceptrónMulticapa
-#include "PerceptronMulticapa.hpp"
+#include "perceptronMulticapa.hpp"
 
 // ------------------------------
 // Obtener un número real aleatorio en el intervalo [Low,High]

@@ -17,7 +17,7 @@
 #include <vector>
 
 // Inclusión de la clase PerceptrónMulticapa
-#include "PerceptronMulticapa.hpp"
+#include "perceptronMulticapa.hpp"
 
 int main(int argc, char **argv) {
 
