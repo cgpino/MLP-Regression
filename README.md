@@ -3,7 +3,7 @@ Programa escrito en C++ que simula el funcionamiento de una red neuronal MLP (pe
 
 # ¿Cómo se usa?
 Será necesario descargar el contenido de github y posteriormente ejecutar el comando `make` (para compilar) dentro de la carpeta del proyecto previamente bajada.
-Una vez compilado, se puede ejecutar el programa `mlpRegresion.x` con distintos argumentos para personalizar nuestra red neuronal.
+Una vez compilado, se puede ejecutar el programa `mlpRegression.x` con distintos argumentos para personalizar nuestra red neuronal.
 
 # Argumentos del programa
 - `Argumento t`: Indica el nombre del fichero que contiene los datos de entrenamiento a utilizar. Sin este argumento, el programa no funciona.
@@ -18,5 +18,5 @@ Una vez compilado, se puede ejecutar el programa `mlpRegresion.x` con distintos 
 # Ejemplo de ejecución
 Un ejemplo de ejecución sería el siguiente:
 ```
-./mlpRegresion.x -t dat/train_xor.dat -T dat/test_xor.dat -i 1000 -l 1 -h 10 -e 0.1 -m 0.9 -b
+./mlpRegression.x -t dat/train_xor.dat -T dat/test_xor.dat -i 1000 -l 1 -h 10 -e 0.1 -m 0.9 -b
 ```
