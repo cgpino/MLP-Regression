@@ -120,8 +120,8 @@ public:
 	}
 
 	// Reservar memoria para las estructuras de datos
-  // nl tiene el numero de capas y npl es un vector que contiene el número de neuronas por cada una de las capas
-  // Rellenar vector Capa* pCapas
+	// nl tiene el numero de capas y npl es un vector que contiene el número de neuronas por cada una de las capas
+	// Rellenar vector Capa* pCapas
 	int inicializar(const int &nl, const std::vector<int> &npl);
 
 	// Leer una matriz de datos a partir de un nombre de fichero y devolverla
@@ -134,8 +134,8 @@ public:
 	double test(Datos* pDatosTest);
 
 	// Ejecutar el algoritmo de entrenamiento durante un número de iteraciones, utilizando pDatosTrain
-  // Una vez terminado, probar como funciona la red en pDatosTest
-  // Tanto el error MSE de entrenamiento como el error MSE de test debe calcularse y almacenarse en errorTrain y errorTest
+	// Una vez terminado, probar como funciona la red en pDatosTest
+	// Tanto el error MSE de entrenamiento como el error MSE de test debe calcularse y almacenarse en errorTrain y errorTest
 	void ejecutarAlgoritmoOnline(Datos * pDatosTrain, Datos * pDatosTest, const int &maxiter, double &errorTrain, double &errorTest);
 
 };
